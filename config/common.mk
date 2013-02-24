@@ -79,6 +79,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/killrom/system/lib/libfrsdk.so:$(PRODUCT_OUT)/system/lib/libfrsdk.so \
     vendor/google/killrom/system/lib/libgcomm_jni.so:$(PRODUCT_OUT)/system/lib/libgcomm_jni.so \
     vendor/google/killrom/system/lib/libgoogle_recognizer_jni.so:$(PRODUCT_OUT)/system/lib/libgoogle_recognizer_jni.so \
+    vendor/google/killrom/system/lib/libgoogle_recognizer_jni_l.so:$(PRODUCT_OUT)/system/lib/libgoogle_recognizer_jni_l.so \
+    vendor/google/killrom/system/lib/libgoggles_clientvision.so:$(PRODUCT_OUT)/system/lib/libgoggles_clientvision.so \
     vendor/google/killrom/system/lib/libgtalk_jni.so:$(PRODUCT_OUT)/system/lib/libgtalk_jni.so \
     vendor/google/killrom/system/lib/libgtalk_stabilize.so:$(PRODUCT_OUT)/system/lib/libgtalk_stabilize.so \
     vendor/google/killrom/system/lib/libjni_latinime.so:$(PRODUCT_OUT)/system/lib/libjni_latinime.so \
