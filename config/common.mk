@@ -43,11 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/killrom/system/app/OccamQuickOffice.apk:$(PRODUCT_OUT)/system/app/OccamQuickOffice.apk
 endif
 
-ifneq ($(filter full_maguro full_toro,$(TARGET_PRODUCT)),)
-PRODUCT_COPY_FILES += \
-    vendor/google/killrom/system/app/tuna/GalleryGoogle.apk:$(PRODUCT_OUT)/system/app/GalleryGoogle.apk
-endif
-
 ifneq ($(filter killrom_maserati killrom_solana killrom_spyder killrom_targa killrom_umts_spyder,$(TARGET_PRODUCT)),)
 PRODUCT_COPY_FILES += \
     vendor/google/killrom/xoom/app/GalleryGoogle.apk:$(PRODUCT_OUT)/system/app/GalleryGoogle.apk
@@ -144,8 +139,3 @@ PRODUCT_COPY_FILES += \
     vendor/google/killrom/system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-r0-ri30.4a-v24/full_model.bin:$(PRODUCT_OUT)/system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-r0-ri30.4a-v24/full_model.bin \
     vendor/google/killrom/system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rn30-ri30.5-v24/full_model.bin:$(PRODUCT_OUT)/system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rn30-ri30.5-v24/full_model.bin \
     vendor/google/killrom/system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rp30-ri30.5-v24/full_model.bin:$(PRODUCT_OUT)/system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rp30-ri30.5-v24/full_model.bin
-
-ifeq ($(TARGET_PRODUCT),full_grouper)
-PRODUCT_COPY_FILES += \
-    vendor/google/killrom/system/app/com.modaco.cameralauncher.apk:$(PRODUCT_OUT)/system/app/com.modaco.cameralauncher.apk
-endif

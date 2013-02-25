@@ -31,7 +31,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/killrom/system/app/NetworkLocation.apk:$(PRODUCT_OUT)/system/app/NetworkLocation.apk \
     vendor/google/killrom/system/app/OneTimeInitializer.apk:$(PRODUCT_OUT)/system/app/OneTimeInitializer.apk \
     vendor/google/killrom/system/app/Phonesky.apk:$(PRODUCT_OUT)/system/app/Phonesky.apk \
-    vendor/google/killrom/system/app/Velvet.apk:$(PRODUCT_OUT)/system/app/Velvet.apk \
+    vendor/google/killrom/system/app/QuickSearchBox.apk:$(PRODUCT_OUT)/system/app/QuickSearchBox.apk \
     vendor/google/killrom/system/app/SetupWizard.apk:$(PRODUCT_OUT)/system/app/SetupWizard.apk \
     vendor/google/killrom/system/app/StreetView.apk:$(PRODUCT_OUT)/system/app/StreetView.apk \
     vendor/google/killrom/system/app/Talk.apk:$(PRODUCT_OUT)/system/app/Talk.apk \
